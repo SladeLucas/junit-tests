@@ -18,4 +18,13 @@ public class CohortTest {
         cohort.add(kyle);
         assertFalse(cohort.isEmpty());
     }
+    @Test
+    public void testGetList(){
+        assertTrue(cohort.contains(kyle));
+    }
+    @Test
+    public void testGetAverage(){
+
+    }
+
 }
