@@ -3,9 +3,9 @@ import java.util.HashMap;
 
 
 public class Student {
-    private String name;
-    private long id;
-    private ArrayList<Integer> grade;
+    public String name;
+    public long id;
+    public ArrayList<Integer> grade;
 
     public Student(String name){
         this.name=name;
@@ -16,6 +16,9 @@ public class Student {
 
     public long getId(){
         return this.id;
+    }
+    public long addId(long x){
+        return this.id = x;
     }
 
     public String getName(){
